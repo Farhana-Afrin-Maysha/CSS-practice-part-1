@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="stylesheet" href="css/my_second_style.css" />
+    <title>Layout Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style></style>
+  </head>  
+  <body>
+    <header class="text color">
+      <h1>Farhana is now practicing CSS</h1>
+    </header>
+    <section class="before">
+      background-color, backgroung-image, background-attachment,
+      background-position , background-repeat is used for this cat background.
+    </section>
+    <p>The universal selector (*) selects all HTML elements on the page.</p>
+    <p class="color backgroud">
+      This paragraph tag is refer to more than one class.
+    </p>
+    <div class="background"></div>
+    <h3>CSS Selector can be grouped.</h3>
+    <h2>Using External CSS is best practice.</h2>
+    <h3>CSS Border</h3>
+    <p class="h3">
+      Border Shorthand is defined as border: pixel style color ; border-radius
+      is used for rounded border.
+    </p>
+    <h3>CSS Margin Vs Padding</h3>
+    <img
+      src="image/margin_vs_padding.jpg"
+      alt=""
+      style="width: 50%; height: 400px;"
+    />
+    <p>
+      Basically, a margin is the space around an element and padding refers to
+      the space between an element and the content inside it.
+    </p>
+    <h4 style="margin-left: 500px;">CSS height/width</h4>
+    <div class="p">
+      <p>
+        This element has a height of 100 pixels and a max-width of 500 pixels.
+      </p>
+      <p>
+        CSS height width value has auto , lenght(px, cm), %, initial and inherit
+        value.
+      </p>
+      <p>
+        max-height, min-height, max-width, min-height.
+      </p>
+    </div>
+    <h4 style="margin-left: 500px;">CSS Outline</h4>
+    <div class="p ex4" style="background-color: #f2bab6;">
+      <p>
+        An outline is a line that is drawn around elements, OUTSIDE the borders,
+        to make the element "stand out".An outline is a line that is drawn
+        around elements, OUTSIDE the borders, to make the element "stand out".
+      </p>
+      <p>
+        CSS has the following outline properties:outline-style, outline-color,
+        outline-width, outline-offset,outline
+      </p>
+      <p>
+        The outline-offset property adds space between an outline and the
+        edge/border of an element. The space between an element and its outline
+        is transparent.
+      </p>
+      <p>
+        The outline property is a shorthand property for setting the following
+        individual outline properties:outline-width, outline-style (required),
+        outline-color.
+      </p>
+    </div>
+    <h3>CSS Text</h3>
+    <h4 class="ex2">
+      This heading is blue with white text with text-align:left
+    </h4>
+    <p class="eg1">Text with text-decoration:overline.</p>
+    <p class="eg2">Text with text-decoration:line-through.</p>
+    <strong
+      >line-through should be avoided if text itself is not a link
+    </strong>
+    <p class="eg3">Text with text-decoration:Underline.</p>
+    <p class="uppercase">Text with text-transformation:uppercase.</p>
+    <p class="lowercase">Text with text-transformation:lowercase.</p>
+    <p class="capitalize">Text with text-transformation:capitalize.</p>
+    <p class="n1">Text with letter-spacing:3px</p>
+    <p class="n2">Text with letter-spacing:-3px</p>
+    . Above text is with letter-spacing:-3px
+    <p>
+      <b
+        >The line-height property is used to specify the space between lines.
+        The word-spacing property is used to specify the space between the words
+        in a text.</b
+      >
+    </p>
+    <p class="shadow">
+      text-shadow:2px 3px 5px yellow; where 2px is horizonrtal ,3px is vertical
+      shadow, 5 px is blur effect and yellow is the color of shadow.
+    </p>
+    <h3>CSS Fonts</h3>
+    <p class="fonts">Font-family:Times New Roman/Arial/Lucida Console;</p>
+    <p class="italic">Font-style:Normal/Italic/oblique;</p>
+    <p class="size">
+      The font-size property sets the size of the text.The size can be
+      calculated from pixels to em using this formula: pixels/16=em. Use the
+      "vw" unit when sizing the text. 10vw will set the size to 10% of the
+      viewport width.
+    </p>
+    <p class="thicker">Font-weight:normal/lighter/bold/100-900;</p>
+    <p class="variant">
+      font-variant property specifies whether or not a text should be displayed
+      in a small-caps font.In a small-caps font, all lowercase letters are
+      converted to uppercase letters. However, the converted uppercase letters
+      appears in a smaller font size than the original uppercase letters in the
+      text.
+    </p>
+    <p class="shorthand">
+      The font property is a shorthand property for: font-style ,font-variant,
+      font-weight ,font-size/line-height ,font-family. where The font-size and
+      font-family values are required. If one of the other values is missing,
+      their default value are used.
+    </p>
+    <p class="google-fonts">Farhana Afrin Maysha</p>
+    <h3>Icons</h3>
+    <p>Font Awesome Icons/Bootstrap Icons/Google Icons can be used</p>
+    <i class="fa fa-thumbs-up" style="font-size: 80px; color: #fcb103;"></i>
+    <h3>CSS Link</h3>
+    <p>
+      <b><a href="default.asp" target="_blank">This is a link</a></b>
+    </p>
+    <p>
+      The four links states are: a:link - a normal unvisited link<br />
+      a:visited - a link the user has visited <br />
+      a:hover - a link when the user mouses over it<br />
+      a:active - a link the moment it is clicked
+    </p>
+
+    <h3> CSS List</h3>
+    <p>
+      <b>All CSS List Properties</b>
+    </p>
+    <p>
+      list-style Sets all the properties for a list in one declaration with:<br />
+      <ul class="a">
+        <li>list-style-type</li>
+        <li>list-style-position</li>
+        <li>list-style-image</li>
+      </ul>
+      <br><br><br><br>
+      list-style-image Specifies an image as the list-item marker for example:<br />
+      <ul class="image">
+        <li>Book</li>
+        <li>Pen</li>
+        <li>Pencil</li>
+      </ul>
+      <br><br><br><br>
+      list-style-position Specifies the position (indise/outside) of the list-item markers (bullet
+      points)
+      <ul class="b">
+        <li>Book - A book is a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover. The technical term for this physical arrangement is codex (plural, codices).</li><br>
+        <li>Pen - For other uses, see Pen (disambiguation), Pens (disambiguation), and PEN (disambiguation). For the comic, see Ink Pen.A luxury pen
+          A pen is a common writing instrument used to apply ink to a surface.</li>
+        
+      </ul>
+      <br><br><br><br><br>
+      list-style-type Specifies the type of list-item marker
+    </p>
+    
+  </body>
+</html>
